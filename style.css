@@ -1,0 +1,170 @@
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    width: 100%;
+}
+.hero-section{
+    background: #F0FFF0;
+    height: 100vh;
+}
+li.nav-item .nav-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+li.nav-item .btn-custom{
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 28px;
+    width: 104px;
+    color: #fff;
+}
+.my-btn-custom{
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 28px;
+    color: #fff;
+    border: none;
+}
+h3.sub-heading {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FD511A;
+}
+h2.heading {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000;
+}
+.heading span {
+    color: #21b573;
+}
+p.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+
+}
+.feature-contant {
+    padding: 30px 15px;
+    background: #F8FFFB;
+    border-radius: 10px;
+}
+.feature-contant:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+img.feature-img {
+    width: 66px;
+}
+.feature-contant h3 {
+    padding-top: 20px; 
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.feature-contant h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+/* courses section css  */
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: none;
+    padding: 20px;
+}
+.card:hover {
+    background: #F8FFFB;
+}
+h2.card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    margin: 10px 0;
+}
+.card-imag {
+    width: 331px;
+    margin: 0 auto;
+    border-radius: 11px;
+}
+button.buy-course {
+    padding: 8px 28px;
+    margin: 20px 0;
+}
+.card-contant li.left,.card-contant li.right {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #585859;
+    list-style: none;
+    margin: 0;
+}
+.card-contant li.left::before{
+    content: "\f133";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 5px;
+}
+.card-contant li.right::before{
+    content: "\f500";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 5px;
+
+}
+.card-contant ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+/* testimonial css  */
+p.testimonial-contant {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+/* footer css  */
+footer.footer {
+    background: #282531;
+    color: #fff;
+    padding: 50px 0;
+}
+h3.footer-headding {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+ul.footer-menu {
+    padding: 0;
+}
+ul.footer-menu li{
+    list-style: none;
+}
+p.copy-right {
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 30px;
+    color: #CDCDCD;
+
+
+}
+
